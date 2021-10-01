@@ -4,10 +4,10 @@
 
 
 ## save credit.txt as variable
-testcredit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/test-account/credit.txt)
+credit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/test-account/credit.txt)
 
 
-echo "Fondos de test-account: " $testcredit
+echo "Fondos de test-account: " $credit
 echo ""
 
 
@@ -29,23 +29,23 @@ do
 
         "Agregar")
 
-            read -p "Seleccione el monto a ingresar: " tempadd
-
+            read -p "Seleccione el monto a ingresar: " modifycred
+                num=$(($credit + $modifycred))
 
 
 		
 				
-            ;;
+        ;;
 
 
-          "Retirar")
-
-
-
+        "Retirar")
 
 
 
-         ;;
+
+
+
+        ;;
 
 
         "Quit")
