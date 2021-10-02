@@ -32,13 +32,13 @@ do
 
         "Agregar")
 
-            tstype=Ingreso
+            
             read -p "Seleccione el monto a ingresar: " modifycred
             read -p "Introduzca el concepto: " concept
             echo "Realizando la operacion... espere"
                 newcredit=$(($credit + $modifycred))
             echo "$newcredit" > contratop-bank/test-account/credit.txt
-            echo "$credit : $concept : $tstype : $modifycred : $newcredit" >> contratop-bank/test-account/transactions.txt
+            echo "$credit : $concept : Ingreso : $modifycred : $newcredit" >> contratop-bank/test-account/transactions.txt
             sleep 1
             echo ""
             echo "Actualizando cuenta online de test-account..."
@@ -58,13 +58,13 @@ do
 
         "Retirar")
 
-            tstype=Retirada
+            
             read -p "Seleccione el monto a retirar: " modifycred  
             read -p "Introduzca el concepto: " concept
             echo "Realizando la operacion... espere"
                 newcredit=$(($credit - $modifycred))
             echo "$newcredit" > contratop-bank/test-account/credit.txt
-            echo "$credit : $concept : $tstype : $modifycred : $newcredit" >> contratop-bank/test-account/transactions.txt
+            echo "$credit : $concept : Retirada : $modifycred : $newcredit" >> contratop-bank/test-account/transactions.txt
             sleep 1
             echo ""
             echo "Actualizando cuenta online de test-account..."
