@@ -3,8 +3,10 @@
 
 
 
-## save credit.txt as variable
-credit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/test-account/credit.txt)
+## save credit.txt as variable and assign variable, and delete credtemp
+wget https://raw.githubusercontent.com/contratop/contratop-bank/main/test-account/credit.txt -O credtemp.txt
+credit=$(cat credtemp.txt)
+rm credtemp.txt
 
 clear
 

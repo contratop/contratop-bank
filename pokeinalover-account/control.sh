@@ -3,8 +3,10 @@
 
 
 
-## save credit.txt as variable
-credit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/pokeinalover-account/credit.txt)
+## save credit.txt as variable and assign variable, and delete credtemp
+wget https://raw.githubusercontent.com/contratop/contratop-bank/main/pokeinalover-account/credit.txt -O credtemp.txt
+credit=$(cat credtemp.txt)
+rm credtemp.txt
 clear
 
 echo "Fondos de pokeinalover: " $credit
