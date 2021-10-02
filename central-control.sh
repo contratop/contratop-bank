@@ -7,25 +7,12 @@ unset credit
 
 echo "Panel de operaciones de ContratopBank"
 
-echo 'ContratopBank Accounts: 3'
+echo 'ContratopBank Accounts: 2'
 	PS3='Select account: '
-options=("Contratop" "Pokeinalover" "Test-Account" "Quit")
+options=("Pokeinalover" "Test-Account" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
-
-
-
-
-
-
-        "Contratop")
-
-bash "contratop-bank/contratop-account/control.sh"
-exit
-		
-				
-            ;;
 
 
           "Pokeinalover")
