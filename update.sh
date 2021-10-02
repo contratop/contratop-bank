@@ -1,3 +1,3 @@
-rm -r -f onlinebank
+rm -r -f contratop-bank
 git clone https://github.com/contratop/contratop-bank
 exit
