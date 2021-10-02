@@ -3,8 +3,8 @@
 
 echo "Panel de operaciones de ContratopBank"
 
-
-	PS3='ContratopBank Accounts: 3'
+echo 'ContratopBank Accounts: 3'
+	PS3='Select account: '
 options=("Contratop" "Pokeinalover" "Test-Account" "Quit")
 select opt in "${options[@]}"
 do
