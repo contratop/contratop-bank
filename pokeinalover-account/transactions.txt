@@ -4,3 +4,4 @@ Valor inicial : Concepto : Tipo : Cantidad : Valor despues
 285 : por mi cumpleh : Ingreso : 50 : 335
 335 : De Tarjeta a Cloud : Ingreso : 250 : 585
 585 : Seguro de internet : Retirada : 150 : 435
+435 : Apacho : Ingreso : 5 : 440
