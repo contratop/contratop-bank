@@ -1,2 +1,3 @@
 Valor inicial : Concepto : Tipo : Cantidad : Valor despues
 250 : fin de los testeos : Ingreso : 10 : 260
+260 : Premio de estreno OwO : Ingreso : 25 : 285
