@@ -1,6 +1,8 @@
 ## Centro de control de la banca online de Contratop
 ## Solo panel administrativo
 
+clear
+
 echo "Panel de operaciones de ContratopBank"
 
 echo 'ContratopBank Accounts: 3'
