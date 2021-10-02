@@ -37,7 +37,7 @@ do
             echo "Realizando la operacion... espere"
                 newcredit=$(($credit + $modifycred))
             echo "$newcredit" > contratop-bank/pokeinalover-account/credit.txt
-            echo "$credit : $concept : $tsype : $modifycred : $newcredit" >> contratop-bank/pokeinalover-account/transactions.txt
+            echo "$credit : $concept : $tstype : $modifycred : $newcredit" >> contratop-bank/pokeinalover-account/transactions.txt
             sleep 1
             echo ""
             echo "Actualizando cuenta online de pokeinalover..."
@@ -63,7 +63,7 @@ do
             echo "Realizando la operacion... espere"
                 newcredit=$(($credit - $modifycred))
             echo "$newcredit" > contratop-bank/pokeinalover-account/credit.txt
-            echo "$credit : $concept : $tsype : $modifycred : $newcredit" >> contratop-bank/pokeinalover-account/transactions.txt
+            echo "$credit : $concept : $tstype : $modifycred : $newcredit" >> contratop-bank/pokeinalover-account/transactions.txt
             sleep 1
             echo ""
             echo "Actualizando cuenta online de tpokeinalover..."
