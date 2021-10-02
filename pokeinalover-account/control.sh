@@ -37,7 +37,7 @@ do
             echo ""
             echo "Actualizando cuenta online de pokeinalover..."
             cd contratop-bank
-            git add contratop-bank/pokeinalover-account/credit.txt
+            git add .
             git commit -m "Account Updated"
             git push
             echo ""
@@ -60,7 +60,7 @@ do
             echo ""
             echo "Actualizando cuenta online de tpokeinalover..."
             cd contratop-bank
-            git add contratop-bank/pokeinalover-account/credit.txt
+            git add .
             git commit -m "Account Updated"
             git push
             echo ""

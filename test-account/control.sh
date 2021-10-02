@@ -38,7 +38,7 @@ do
             echo ""
             echo "Actualizando cuenta online de test-account..."
             cd contratop-bank
-            git add contratop-bank/test-account/credit.txt
+            git add .
             git commit -m "Account Updated"
             git push
             echo ""
@@ -61,7 +61,7 @@ do
             echo ""
             echo "Actualizando cuenta online de test-account..."
             cd contratop-bank
-            git add contratop-bank/test-account/credit.txt
+            git add .
             git commit -m "Account Updated"
             git push
             echo ""
