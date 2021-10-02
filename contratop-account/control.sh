@@ -5,6 +5,7 @@
 
 ## save credit.txt as variable
 credit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/contratop-account/credit.txt)
+clear
 
 
 echo "Fondos de Contratop: " $credit
@@ -42,6 +43,7 @@ do
             git push
             echo ""
             echo "Transaccion completada"
+            exit
             
 
 
@@ -65,6 +67,7 @@ do
             git push
             echo ""
             echo "Transaccion completada"
+            exit
 
 
 

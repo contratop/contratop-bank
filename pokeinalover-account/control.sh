@@ -5,7 +5,7 @@
 
 ## save credit.txt as variable
 credit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/pokeinalover-account/credit.txt)
-
+clear
 
 echo "Fondos de pokeinalover: " $credit
 echo ""
@@ -42,7 +42,7 @@ do
             git push
             echo ""
             echo "Transaccion completada"
-            
+            exit
 
 
 		
@@ -65,7 +65,7 @@ do
             git push
             echo ""
             echo "Transaccion completada"
-
+            exit
 
 
 
