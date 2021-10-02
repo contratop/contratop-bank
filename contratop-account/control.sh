@@ -32,11 +32,11 @@ do
             read -p "Seleccione el monto a ingresar: " modifycred
             echo "Realizando la operacion... espere"
                 newcredit=$(($credit + $modifycred))
-            echo "$newcredit" > onlinebank/contratop-account/credit.txt
+            echo "$newcredit" > contratop-bank/contratop-account/credit.txt
             sleep 1
             echo ""
             echo "Actualizando cuenta online de Contratop..."
-            git add onlinebank/contratop-account/credit.txt
+            git add contratop-bank/contratop-account/credit.txt
             git commit -m "Account Updated"
             git push
             echo ""
@@ -54,11 +54,11 @@ do
             read -p "Seleccione el monto a retirar: " modifycred   
             echo "Realizando la operacion... espere"
                 newcredit=$(($credit - $modifycred))
-            echo "$newcredit" > onlinebank/contratop-account/credit.txt
+            echo "$newcredit" > contratop-bank/contratop-account/credit.txt
             sleep 1
             echo ""
             echo "Actualizando cuenta online de Contratop..."
-            git add onlinebank/contratop-account/credit.txt
+            git add contratop-bank/contratop-account/credit.txt
             git commit -m "Account Updated"
             git push
             echo ""

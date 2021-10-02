@@ -17,7 +17,7 @@ do
 
         "Contratop")
 
-bash "onlinebank/contratop-account/control.sh"
+bash "contratop-bank/contratop-account/control.sh"
 exit
 		
 				
@@ -26,7 +26,7 @@ exit
 
           "Pokeinalover")
 
-bash "onlinebank/pokeinalover-account/control.sh"
+bash "contratop-bank/pokeinalover-account/control.sh"
 exit
 
 
@@ -37,7 +37,7 @@ exit
 
         "Test-Account")
 
-bash "onlinebank/test-account/control.sh"
+bash "contratop-bank/test-account/control.sh"
 exit
 
 

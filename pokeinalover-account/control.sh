@@ -32,11 +32,11 @@ do
             read -p "Seleccione el monto a ingresar: " modifycred
             echo "Realizando la operacion... espere"
                 newcredit=$(($credit + $modifycred))
-            echo "$newcredit" > onlinebank/pokeinalover-account/credit.txt
+            echo "$newcredit" > contratop-bank/pokeinalover-account/credit.txt
             sleep 1
             echo ""
             echo "Actualizando cuenta online de pokeinalover..."
-            git add onlinebank/pokeinalover-account/credit.txt
+            git add contratop-bank/pokeinalover-account/credit.txt
             git commit -m "Account Updated"
             git push
             echo ""
@@ -54,11 +54,11 @@ do
             read -p "Seleccione el monto a retirar: " modifycred   
             echo "Realizando la operacion... espere"
                 newcredit=$(($credit - $modifycred))
-            echo "$newcredit" > onlinebank/pokeinalover-account/credit.txt
+            echo "$newcredit" > contratop-bank/pokeinalover-account/credit.txt
             sleep 1
             echo ""
             echo "Actualizando cuenta online de tpokeinalover..."
-            git add onlinebank/pokeinalover-account/credit.txt
+            git add contratop-bank/pokeinalover-account/credit.txt
             git commit -m "Account Updated"
             git push
             echo ""
