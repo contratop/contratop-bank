@@ -2,6 +2,8 @@
 ## Solo panel administrativo
 
 clear
+unset
+unset credit
 
 echo "Panel de operaciones de ContratopBank"
 
