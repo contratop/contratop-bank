@@ -19,7 +19,7 @@ do
           "Pokeinalover")
           
           # get info
-          viewcredit=$(https://raw.githubusercontent.com/contratop/contratop-bank/main/pokeinalover-account/credit.txt)
+          viewcredit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/pokeinalover-account/credit.txt)
 
             echo "Credito en el servidor: $viewcredit"
             echo ""
@@ -37,7 +37,7 @@ do
         "Test-Account")
 
 # get info
-          viewcredit=$(https://raw.githubusercontent.com/contratop/contratop-bank/main/test-account/credit.txt)
+          viewcredit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/test-account/credit.txt)
 
             echo "Credito en el servidor: $viewcredit"
             echo ""
