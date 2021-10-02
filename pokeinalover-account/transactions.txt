@@ -1,1 +1,1 @@
-Valor inicial : Concepto : Tipo : Cantidad : Valor despues250 : Por los testeos : Ingreso : 20 : 270
+Valor inicial : Concepto : Tipo : Cantidad : Valor despues
