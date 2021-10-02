@@ -30,7 +30,18 @@ do
         "Agregar")
 
             read -p "Seleccione el monto a ingresar: " modifycred
-                num=$(($credit + $modifycred))
+            echo "Realizando la operacion... espere"
+                newcredit=$(($credit + $modifycred))
+            echo "$newcredit" > onlinebank/test-account/credit.txt
+            sleep 1
+            echo ""
+            echo "Actualizando cuenta online de test-account..."
+            git add onlinebank/test-account/credit.txt
+            git commit -m "Account Updated"
+            git push
+            echo ""
+            echo "Transaccion completada"
+            
 
 
 		
