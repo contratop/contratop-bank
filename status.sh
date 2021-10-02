@@ -17,10 +17,10 @@ do
 
 
           "Pokeinalover")
-          clear
+          
           # get info
           viewcredit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/pokeinalover-account/credit.txt)
-
+clear
             echo "Credito en el servidor: $viewcredit"
             echo ""
             echo "Historial de transacciones:"
@@ -35,10 +35,10 @@ do
 
 
         "Test-Account")
-clear
+
 # get info
           viewcredit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/test-account/credit.txt)
-
+clear
             echo "Credito en el servidor: $viewcredit"
             echo ""
             echo "Historial de transacciones:"
