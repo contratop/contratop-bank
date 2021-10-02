@@ -15,7 +15,7 @@ echo ""
 ## display transaction menu
 echo "Seleccione el tipo de transaccion"
 
-echo Que funcion vas a realizar
+
 	PS3='Operaciones para Contratop ADMIN: '
 options=("Agregar" "Retirar" "Quit")
 select opt in "${options[@]}"
