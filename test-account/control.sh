@@ -41,7 +41,6 @@ do
             git add .
             git commit -m "Account Updated"
             git push
-            bash contratop-bank/update.sh
             echo ""
             echo "Transaccion completada"
             break
@@ -65,7 +64,6 @@ do
             git add .
             git commit -m "Account Updated"
             git push
-            bash contratop-bank/update.sh
             echo ""
             echo "Transaccion completada"
             break
