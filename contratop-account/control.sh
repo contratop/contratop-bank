@@ -4,10 +4,10 @@
 
 
 ## save credit.txt as variable
-credit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/test-account/credit.txt)
+credit=$(curl https://raw.githubusercontent.com/contratop/contratop-bank/main/contratop-account/credit.txt)
 
 
-echo "Fondos de test-account: " $credit
+echo "Fondos de Contratop: " $credit
 echo ""
 
 
@@ -16,7 +16,7 @@ echo ""
 echo "Seleccione el tipo de transaccion"
 
 echo Que funcion vas a realizar
-	PS3='Operaciones para test-account: '
+	PS3='Operaciones para Contratop ADMIN: '
 options=("Agregar" "Retirar" "Quit")
 select opt in "${options[@]}"
 do
@@ -32,11 +32,11 @@ do
             read -p "Seleccione el monto a ingresar: " modifycred
             echo "Realizando la operacion... espere"
                 newcredit=$(($credit + $modifycred))
-            echo "$newcredit" > onlinebank/test-account/credit.txt
+            echo "$newcredit" > onlinebank/contratop-account/credit.txt
             sleep 1
             echo ""
-            echo "Actualizando cuenta online de test-account..."
-            git add onlinebank/test-account/credit.txt
+            echo "Actualizando cuenta online de Contratop..."
+            git add onlinebank/contratop-account/credit.txt
             git commit -m "Account Updated"
             git push
             echo ""
@@ -54,11 +54,11 @@ do
             read -p "Seleccione el monto a retirar: " modifycred   
             echo "Realizando la operacion... espere"
                 newcredit=$(($credit - $modifycred))
-            echo "$newcredit" > onlinebank/test-account/credit.txt
+            echo "$newcredit" > onlinebank/contratop-account/credit.txt
             sleep 1
             echo ""
-            echo "Actualizando cuenta online de test-account..."
-            git add onlinebank/test-account/credit.txt
+            echo "Actualizando cuenta online de Contratop..."
+            git add onlinebank/contratop-account/credit.txt
             git commit -m "Account Updated"
             git push
             echo ""
