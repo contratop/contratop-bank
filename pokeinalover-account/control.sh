@@ -36,6 +36,7 @@ do
             sleep 1
             echo ""
             echo "Actualizando cuenta online de pokeinalover..."
+            cd contratop-bank
             git add contratop-bank/pokeinalover-account/credit.txt
             git commit -m "Account Updated"
             git push
@@ -58,6 +59,7 @@ do
             sleep 1
             echo ""
             echo "Actualizando cuenta online de tpokeinalover..."
+            cd contratop-bank
             git add contratop-bank/pokeinalover-account/credit.txt
             git commit -m "Account Updated"
             git push
