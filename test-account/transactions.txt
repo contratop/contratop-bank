@@ -1,4 +1,4 @@
-Valor inicial : Concepto : Tipo : Cantidad : Valor despues500 : pruebas :  : 150 : 350
+Valor inicial : Concepto : Tipo : Cantidad : Valor despues
 500 : test de funcion :  : 150 : 350
 500 : Test de kk :  : 150 : 350
 350 : Aver si ahora va : Ingreso : 150 : 500
