@@ -7,3 +7,4 @@ Valor inicial : Concepto : Tipo : Cantidad : Valor despues
 435 : Apacho : Ingreso : 5 : 440
 440 : Mi silencio xDD : Retirada : 300 : 140
 140 : Ma abandoñao ;-; : Retirada : 20 : 120
+120 : Casino Diy : Retirada : 14 : 106
