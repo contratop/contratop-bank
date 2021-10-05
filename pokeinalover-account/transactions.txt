@@ -1,9 +1,4 @@
 Valor inicial : Concepto : Tipo : Cantidad : Valor despues
-250 : fin de los testeos : Ingreso : 10 : 260
-260 : Premio de estreno OwO : Ingreso : 25 : 285
-285 : por mi cumpleh : Ingreso : 50 : 335
-335 : De Tarjeta a Cloud : Ingreso : 250 : 585
-585 : Seguro de internet : Retirada : 150 : 435
 435 : Apacho : Ingreso : 5 : 440
 440 : Mi silencio xDD : Retirada : 300 : 140
 140 : Ma abandoñao ;-; : Retirada : 20 : 120
