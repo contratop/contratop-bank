@@ -5,3 +5,4 @@ Valor inicial : Concepto : Tipo : Cantidad : Valor despues
 120 : Casino Diy : Retirada : 14 : 106
 106 : UNO Lose : Retirada : 100 : 6
 6 : Tetteo uwu : Ingreso : 20 : 26
+26 : Apachos : Ingreso : 40 : 66

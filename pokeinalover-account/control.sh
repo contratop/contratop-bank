@@ -42,6 +42,7 @@ do
             echo ""
             echo "Actualizando cuenta online de pokeinalover..."
             cd contratop-bank
+git pull
             git add .
             git commit -m "Account Updated"
             git push
@@ -68,6 +69,7 @@ do
             echo ""
             echo "Actualizando cuenta online de tpokeinalover..."
             cd contratop-bank
+git pull
             git add .
             git commit -m "Account Updated"
             git push
