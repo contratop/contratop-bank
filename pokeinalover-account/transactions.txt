@@ -6,3 +6,4 @@ Valor inicial : Concepto : Tipo : Cantidad : Valor despues
 106 : UNO Lose : Retirada : 100 : 6
 6 : Tetteo uwu : Ingreso : 20 : 26
 26 : Apachos : Ingreso : 40 : 66
+66 : reto superado : Ingreso : 100 : 166
