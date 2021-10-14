@@ -7,3 +7,4 @@ Valor inicial : Concepto : Tipo : Cantidad : Valor despues
 6 : Tetteo uwu : Ingreso : 20 : 26
 26 : Apachos : Ingreso : 40 : 66
 66 : reto superado : Ingreso : 100 : 166
+166 : Restaurante LeGatteh : Retirada : 3 : 163
