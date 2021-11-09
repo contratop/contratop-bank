@@ -8,3 +8,4 @@ Valor inicial : Concepto : Tipo : Cantidad : Valor despues
 26 : Apachos : Ingreso : 40 : 66
 66 : reto superado : Ingreso : 100 : 166
 166 : Restaurante LeGatteh : Retirada : 3 : 163
+163 : Gastos de instalacion PC : Retirada : 163 : 0
